@@ -17,7 +17,7 @@ public class IPLServiceImpl implements IPLService {
 	}
 
 	public boolean saveAndValidate(IPLDTO ipldto) {
-		System.out.println("invoked saveAndValidate");
+		System.out.println("invoked saveAndValidate, checking git");
 
 		System.out.println("do validation ...*");
 

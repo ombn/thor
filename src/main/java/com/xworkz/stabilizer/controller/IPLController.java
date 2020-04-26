@@ -18,7 +18,7 @@ public class IPLController {
 	@RequestMapping("/iplRegister.odc")
 	public String onRegister(IPLDTO ipldto)//@ModelAttribute is optional
 	{
-		System.out.println("invoked onRegister");
+		System.out.println("invoked onRegister, this is update using git");
 		System.out.println("model attribute is \t"+ipldto);
 		
 		return "IPL";
