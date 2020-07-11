@@ -24,7 +24,7 @@ public class LoginController {
 			model.addAttribute("message","welcome to online classes from xworkz"+uname);
 			return "LoginSuccess";
 		}
-		System.out.println("username and password not matching, navigate to login page");
+		System.out.println("username and password not matching, navigate to login pages");
 		return "Login";
 	}
 
