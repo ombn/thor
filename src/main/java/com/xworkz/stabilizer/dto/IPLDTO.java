@@ -11,7 +11,7 @@ public class IPLDTO implements Serializable {
 	private String entry;
 
 	public IPLDTO() {
-		System.out.println("Created \t" + this.getClass().getSimpleName());
+		System.out.println("Created one \t" + this.getClass().getSimpleName());
 	}
 
 	public String getTeamName() {
