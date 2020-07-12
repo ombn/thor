@@ -5,7 +5,7 @@
 	<artifactId>com.xworkz.stab</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>com.xworkz.stabilizer Maven Webapp</name>
+	<name>com.xworkz.stabilizer</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
