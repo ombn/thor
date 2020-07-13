@@ -20,11 +20,11 @@ public class LoginController {
 		System.out.println("password" + password);
 		if ("xworkz".equals(uname) && "secret".equals(password)) {
 			System.out.println("username and password matching, navigate to loginsuccess");
-			model.addAttribute("username",uname);//k=string, value=obj
+			model.addAttribute("username",password);//k=string, value=obj
 			model.addAttribute("message","welcome to online classes from xworkz"+uname);
 			return "LoginSuccess";
 		}
-		System.out.println("username and password not matching, navigate to login pages");
+		System.out.println("username and password does not matching, navigate to login pages");
 		return "Login";
 	}
 
